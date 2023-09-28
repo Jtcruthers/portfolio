@@ -1,5 +1,5 @@
 <template>
-  <main class="prose">
+  <main class="prose prose-invert">
     <ContentDoc />
   </main>
 </template>

@@ -3,6 +3,16 @@ export default defineNuxtConfig({
   srcDir: 'src',
   modules: [
     '@nuxtjs/tailwindcss',
-    '@nuxt/image-edge'
+    '@nuxt/image-edge',
+    '@nuxt/content'
   ],
+  content: {
+    highlight: {
+      preload: ['vue', 'ts', 'rust'],
+      theme: {
+        dark: 'github-dark',
+        default: 'github-light',
+      }
+    }
+  }
 })
